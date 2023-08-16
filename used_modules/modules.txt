@@ -1,0 +1,18 @@
+1) paramiko
+- to connect to a remote machine and execute commands using ssh
+
+2) os
+- to execute any command prompt commands in our machine 
+
+3) subprocess 
+- to execute any command prompt commands in our machine
+
+4) requests 
+- to send request to any web page
+
+5) bs4 (BeautifulSoup)
+- to get the code contents present in a web page
+- this module was used along with requests module
+
+
+

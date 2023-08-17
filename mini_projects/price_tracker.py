@@ -8,8 +8,8 @@ def get_product_price(url):
 
     page = requests.get(url, headers= headers)
     page_content = BeautifulSoup(page.content, 'html.parser')
-    google_pixel_price = page_content.find(class_="_30jeq3 _16Jk6d")
-    return google_pixel_price.getText()
+    product_price = page_content.find(class_="_30jeq3 _16Jk6d")
+    return product_price.getText()
 
 product_list = [
     {

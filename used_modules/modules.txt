@@ -14,5 +14,11 @@
 - to get the code contents present in a web page
 - this module was used along with requests module
 
+6) pandas
+- to import data from a excel sheet
+
+7) openpyxl
+- to export the data to a excel sheet
+- this module was used with pandas
 
 

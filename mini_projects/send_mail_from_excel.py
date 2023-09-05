@@ -8,7 +8,7 @@ import openpyxl
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 gmail_username = 'kishorenate@gmail.com'
-gmail_password = 'vjafctsswmelhsdw'
+gmail_password = 'kishsinnesloknan'
 
 subject = 'Looking for AWS/DevOps role'
 message_text = """    Hello HR,

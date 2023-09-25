@@ -1,0 +1,19 @@
+import json
+
+def lambda_handler(event, context):
+    # Extract the "number" from the input event
+    number = event.get("number", 2)  # Default to 2 if "number" is not provided
+
+    # Generate multiplication tables for the number
+    tables_result = []
+    for multiply in range(0, 11):
+        answer = number * multiply
+        tables_result.append(f'{number} * {multiply} = {answer}')
+
+    # Return the result as a JSON response
+    response = {
+        "statusCode": 200,
+        "body": json.dumps({"multiplication_tables": tables_result}),
+    }
+
+    return response
